@@ -1,7 +1,7 @@
 import s from './SearchBox.module.css';
 import Container from '../Container/Container.jsx';
 
-export default function SearchBox({ handleFilterChange, filterValue }) {
+export default function SearchBox({ onFilter, value }) {
   return (
     <section className={s.searchBox_section}>
       <Container className={s.searchBox_container}>
@@ -11,8 +11,8 @@ export default function SearchBox({ handleFilterChange, filterValue }) {
             className={s.searchBox_input}
             type="text"
             name="search"
-            onChange={handleFilterChange}
-            value={filterValue}
+            onChange={onFilter}
+            value={value}
           />
         </label>
       </Container>

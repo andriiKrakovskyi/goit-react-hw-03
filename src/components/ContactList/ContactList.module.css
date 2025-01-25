@@ -9,4 +9,12 @@
     flex-wrap: wrap;
     gap: 10px;
   }
+
+  .contactList_messege {
+    font-size: 25px;
+    padding: 20px 20px 20px 60px;
+    color: rgb(42, 140, 165);
+
+    width: 330px;
+  }
 }

@@ -7,7 +7,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     height: 126px;
   }
 
@@ -56,5 +56,12 @@
 
   .contact_button:hover {
     background-color: rgb(255, 245, 224);
+  }
+
+  .contact_item.no_match {
+    background-color: rgba(219, 215, 215, 0.1);
+    color: rgba(175, 170, 170, 0.911);
+    border: 1px solid rgb(185, 185, 185);
+    box-shadow: none;
   }
 }
